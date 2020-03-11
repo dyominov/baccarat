@@ -1,0 +1,16 @@
+.input {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.over {
+    flex: 1;
+    text-align: center;
+}
+
+.score {
+    flex: 1;
+    text-align: center;
+}
