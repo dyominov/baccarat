@@ -1,1 +1,1 @@
-export const root = "http://localhost:8080";
+export const root = "https://baccarat-serv.herokuapp.com";
