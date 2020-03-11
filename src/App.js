@@ -20,7 +20,7 @@ class App extends Component {
       <div>
         <Navbar fluid>
           <Navbar.Header>
-            <Navbar.Brand>Basketball</Navbar.Brand>
+            <Navbar.Brand>Baccarat</Navbar.Brand>
             <Button
               bsStyle="primary"
               className="btn-margin"
