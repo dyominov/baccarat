@@ -21,12 +21,15 @@ const Result = props => {
               value={homeScore}
               onChange={e => setHomeScore(e.target.value)}
             >
+              <option value="8.5">8.5</option>
               <option value="7.5">7.5</option>
               <option value="6.5">6.5</option>
               <option value="5.5">5.5</option>
               <option value="4.5">4.5</option>
               <option value="3.5">3.5</option>
               <option value="2.5">2.5</option>
+              <option value="1.5">1.5</option>
+              <option value="0.5">0.5</option>
             </select>
           </label>
         </form>
@@ -37,12 +40,15 @@ const Result = props => {
               value={awayScore}
               onChange={e => setAwayScore(e.target.value)}
             >
+              <option value="8.5">8.5</option>
               <option value="7.5">7.5</option>
               <option value="6.5">6.5</option>
               <option value="5.5">5.5</option>
               <option value="4.5">4.5</option>
               <option value="3.5">3.5</option>
               <option value="2.5">2.5</option>
+              <option value="1.5">1.5</option>
+              <option value="0.5">0.5</option>
             </select>
             <p />
             Handicap:
@@ -50,14 +56,25 @@ const Result = props => {
               value={handicape}
               onChange={e => setHandicape(e.target.value)}
             >
+              <option value="-8.5">-8.5</option>
+              <option value="-7.5">-7.5</option>
+              <option value="-6.5">-6.5</option>
+              <option value="-5.5">-5.5</option>
+              <option value="-4.5">-4.5</option>
               <option value="-3.5">-3.5</option>
               <option value="-2.5">-2.5</option>
               <option value="-1.5">-1.5</option>
               <option value="-0.5">-0.5</option>
+              <option value="0">0</option>
               <option value="+0.5">+0.5</option>
               <option value="+1.5">+1.5</option>
               <option value="+2.5">+2.5</option>
               <option value="+3.5">+3.5</option>
+              <option value="+4.5">+4.5</option>
+              <option value="+5.5">+5.5</option>
+              <option value="+6.5">+6.5</option>
+              <option value="+7.5">+7.5</option>
+              <option value="+8.5">+8.5</option>
             </select>
             <p />
             Total score:
@@ -65,6 +82,10 @@ const Result = props => {
               value={totalScore}
               onChange={e => setTotalScore(e.target.value)}
             >
+              <option value="17.5">17.5</option>
+              <option value="16.5">16.5</option>
+              <option value="15.5">15.5</option>
+              <option value="14.5">15.5</option>
               <option value="13.5">13.5</option>
               <option value="12.5">12.5</option>
               <option value="11.5">11.5</option>
@@ -72,6 +93,13 @@ const Result = props => {
               <option value="9.5">9.5</option>
               <option value="8.5">8.5</option>
               <option value="7.5">7.5</option>
+              <option value="6.5">6.5</option>
+              <option value="5.5">5.5</option>
+              <option value="4.5">4.5</option>
+              <option value="3.5">3.5</option>
+              <option value="2.5">2.5</option>
+              <option value="1.5">1.5</option>
+              <option value="0.5">0.5</option>
             </select>
           </label>
         </form>
